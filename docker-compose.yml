@@ -1,0 +1,8 @@
+version: '3'
+services:
+  discord-bot:
+    build: .
+    environment:
+      - INFERMATIC_API_KEY=your_infermatic_api_key
+      - DISCORD_TOKEN=your_discord_token
+    restart: always
